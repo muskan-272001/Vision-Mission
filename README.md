@@ -1,3 +1,5 @@
+![alt text](image-1.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -30,3 +32,7 @@ For this Frontend Developer Code Test from Artus, I approached the tasks systema
 - Throughout the implementation, adherence to best practices in frontend development, including code modularity, reusability, and performance optimization, was prioritized to deliver a robust solution.
 
 This approach aimed to meet the project's objectives effectively within the given time frame, focusing on accuracy, responsiveness, and logical handling of both design and data integration aspects.
+
+![alt text](image.png)
+
+
