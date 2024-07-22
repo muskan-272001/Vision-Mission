@@ -1,33 +1,16 @@
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
- */
-
-
- .app {
+.app {
   display: flex;
 }
 
 .main-content {
-  margin-left: 100px; /* Adjust according to your sidebar width */
+  margin-left: 100px;
   width: calc(100% - 100px);
   padding: 20px;
 }
 
 .cards-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
   padding: 20px;
 }
@@ -41,4 +24,5 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-family: 'Arial', sans-serif;
 }

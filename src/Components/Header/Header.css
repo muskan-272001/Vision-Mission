@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  background: linear-gradient(90deg, #2B19FE, #FF023F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.header p {
+  margin: 10px 0 0;
+  color: #393A5E;
+  font-family: "Lato", 'sans-serif';
+  font-weight: 600;
+  font-size: 17px;
+}

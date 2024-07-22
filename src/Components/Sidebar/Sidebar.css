@@ -1,0 +1,56 @@
+.sidebar {
+  width: 55px;
+  background-color: #0F0933;
+  height: 580px;
+  /* padding: 20px; */
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  position: fixed;
+  margin-left: 5px;
+}
+
+.sidebar-item {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.icons-style {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.icons {
+  margin-top: 1rem;
+  margin-bottom: 40px;
+}
+
+.circleGreen {
+  font-size: 23px;
+  color: #2CF2AB;
+  margin-bottom: 10px;
+}
+
+.circleWhite {
+  font-size: 23px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.bottomAvatar {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.bottom-icon-item img {
+  border-radius: 50%;
+  margin-right: 2px;
+  margin-top: 20px;
+  border: 1px solid white;
+}
