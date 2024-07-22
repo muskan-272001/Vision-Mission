@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -12,27 +12,33 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+ */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+ .app {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-content {
+  margin-left: 100px; /* Adjust according to your sidebar width */
+  width: calc(100% - 100px);
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.next-button {
+  margin: 20px auto;
+  display: block;
+  padding: 10px 20px;
+  background-color: #5661F6;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
